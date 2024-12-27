@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grade Table</title>
+  <link rel="stylesheet" href="113306087_Lab5.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <label for="mathGrade">Math Grade:</label>
+      <input type="number" id="mathGrade" min="0" max="100">
+      <label for="englishGrade">English Grade:</label>
+      <input type="number" id="englishGrade" min="0" max="100">
+      <button id="submitBtn">Submit</button>
+    </div>
+    <table id="gradesTable">
+      <thead>
+        <tr>
+          <th>Math</th>
+          <th>English</th>
+          <th>Average</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td id="mathAverage">0</td>
+          <td id="englishAverage">0</td>
+          <td id="overallAverage">0</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="113306087_Lab5.js"></script>
+</body>
+</html>
